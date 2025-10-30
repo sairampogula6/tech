@@ -1,0 +1,84 @@
+body{
+     margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: black
+}
+
+/* header /navigation bar */
+nav h2{
+    color: white;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+nav a{
+    flex-basis: 50px;
+    color: white;
+}
+nav a:hover{
+    transform:scale(1.1) ;
+}
+
+/*  main item display/ add */
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#content{
+    padding-top: 50px;
+    color: white;
+   font-family: 'Segoe UI';  
+}
+#content h1{
+    line-height: 20px;
+    font-size: 50px;
+}
+#content p{
+    font-size: 22px;
+}
+.price{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 5px;
+}
+span{
+    color:rgba(128, 128, 128, 0.871);
+    padding-left: 10px;
+    text-decoration:line-through;
+}
+
+button{
+    padding: 8px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+/* featured products */
+#feature{
+    padding-top: 65px;
+    color: white;
+}
+
+#featured-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+ #feature h2{
+    color: white;
+    text-align: center;
+ }
