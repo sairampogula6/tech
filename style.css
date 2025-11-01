@@ -324,7 +324,7 @@ h3+p {
 }
 
 #browse {
-
+    font-size: 30px;
     color: white;
     text-align: center;
     align-content: center;
@@ -428,6 +428,8 @@ br+button{
     margin-top: 18px;
 }
 
+/* <!-- specifications/overview/review --> */
+
 #view-details+#model{
     display: flex;
     flex-wrap: wrap;
@@ -439,9 +441,26 @@ br+button{
     text-decoration: none;
     color: white;
     
+    
 }
 
 #view-details+#model p{
  margin-right: 90px;
+}
+
+#specifics{
+    color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.specs{
+    width: 200px;
+}
+
+#fics{
+    color: white;
+    text-align: end;
 }
 
