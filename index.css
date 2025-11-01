@@ -49,8 +49,9 @@ body{
     flex-wrap: wrap;
     align-items: center;
     line-height: 5px;
+    
 }
-span{
+.price span{
     color:rgba(128, 128, 128, 0.871);
     padding-left: 10px;
     text-decoration:line-through;
@@ -75,13 +76,51 @@ span{
 #featured-items{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
 }
 #h2{
     color: white;
     text-align: center;
  }
+
+ .corner{
+      margin-top: 30px;
+ }
+
+ .corner *{
+    font-size: 14px;
+    padding-left: 20px;
+ } 
+ #middle *{
+    font-size: 18px;
+    padding-left: 30px;
+ }
+
+ .inner{
+    margin-top: 20px;
+    
+ }
+
+.inner *{
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+#featured-items span{
+    padding-left: 8px;
+}
+
+#middle:hover{
+    transform: scale(1.1);
+}
+.inner:hover{
+    transform: scale(1.09);
+}
+
+.corner:hover{
+    transform: scale(1.08);
+}
 
 /* top products */
 #top{
@@ -113,17 +152,15 @@ span{
     flex-wrap: wrap;
     width: 85%;
     margin: auto;
-    justify-content:space-around;
-      
-      
+    justify-content:space-evenly;
+   
 }
 .items{
-    
-    border: 1px solid whitesmoke;
     padding: 10px;
-    border-radius: 1px;
-    width: 200px;
-    margin-bottom: 10px;
+    border-radius: 2px;
+    width: 230px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(192, 192, 192, 0.437);
 }
 
 .items button{
@@ -137,6 +174,21 @@ span{
     font-size: 12px;
 }
 
+.items h3{
+    line-height: 2px;
+}
+
+.items img{
+    padding-left: 25px;
+    border: none;
+}
+.items hr{
+    line-height: 1px;
+}
+h3+p{
+    line-height: 18px;
+    color: silver;
+}
 #top-items h3{
     color: white;
 }
@@ -148,6 +200,7 @@ span{
 }
 /* ★ */
 .star{
+    line-height: 1px;
     color: red;
     text-decoration: none;
 }
@@ -164,7 +217,8 @@ span{
     display: flex;
     flex-wrap: wrap;
     color: white;
-    justify-content: space-around;
+    margin: 0px 20px 0px 10px;
+    justify-content: space-between;
    
 }
 
@@ -194,8 +248,61 @@ i{
     font-family: sans-serif;
 }
 
+/* contact/subscribe/policies */
+#contact{
+    display: flex;
+    flex-wrap:wrap ;
+    border: 1px solid black;
+    margin: 80px 90px 30px 15px;
+    justify-content: space-between;
+   
+    
+}
+#contact h3{
+    color: white ;
+    line-height: 1px;
+}
+
+#contact button{
+    margin-top: 8px;
+    padding: 8px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#contact input{
+    background-color: black;
+    color: rgba(192, 192, 192, 0.329);
+    padding: 5px;
+    border: 1px solid rgba(192, 192, 192, 0.329);
+}
+
+#contact p{
+    color: silver
+}
 
 
+/* footer */
+footer{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10px;
+    border-top: 1px solid rgba(192, 192, 192, 0.329);
+}
+
+footer p{
+    flex-grow: 1;
+}
+footer span{
+    color: red;
+}
 
 
  
