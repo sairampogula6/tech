@@ -473,7 +473,7 @@ br+button {
 
 /*-------------------------------------------------------------------------- */
 
-@media (max-width:374px)and (orientation: portrait) {
+@media screen and (max-width:426px){
     body {
         margin: 0px;
         padding: 0px;
@@ -697,32 +697,52 @@ br+button {
         color: white;
         text-align: center;
         padding-bottom: 5px;
-        
-    
     }
 
-    .corner {
-        margin-top: 30px;
+    .inner img{
+        height: 140px;
+        width: 140px;
     }
+
+   #middle img{
+    
+        height: 140px;
+        width: 140px;
+   
+   }
+
+   .corner{
+    margin: 5px 
+    
+   }
+   .inner{
+    margin: 5px;
+   }
+   
+   #middle{
+    margin: 5px;
+   }
+
+
+
+
 
     .corner * {
         font-size: 14px;
-        padding-left: 20px;
+        padding-left: 10px;
+        text-align: center;
     }
 
     #middle * {
-        font-size: 18px;
-        padding-left: 30px;
-    }
-
-    .inner {
-        margin-top: 20px;
-
+        font-size: 14px;
+        padding-left: 10px;
+        text-align: center;
     }
 
     .inner * {
-        font-size: 16px;
-        padding-left: 25px;
+        font-size: 14px;
+        padding-left: 5px;
+        text-align: center;
     }
 
     #featured-items span {
@@ -743,15 +763,18 @@ br+button {
 
     /* top products------index.html */
     #top {
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     #top #model {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding: 5px 160px 5px 160px;
+        padding: 5px 30px 20px 30px;
         list-style: none;
+        font-size: 12px;
+        text-align: center;
+
     }
 
     #top a {
@@ -761,7 +784,8 @@ br+button {
     }
 
     #model p:first-child {
-        padding: 5px;
+        padding: 3px;
+        
         border-radius: 2px;
         background-color: red;
     }
